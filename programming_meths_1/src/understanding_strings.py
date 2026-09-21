@@ -15,8 +15,35 @@ Ejemplo:
 Ejemplo incorrecto:
 (x) "Charly'
 """
-name = "Arnoldo Rene Gudino Ponce"
+name = "ARNOLDO rene GUDINO ponce"
 """
 la variable name es de tipo string
 """
 print(name)
+
+
+print(name.title())
+name = name.title()
+print(name)
+
+#Metodos
+
+"""
+ Un metodos es una accion que
+ python puede realizar sobre una 
+ variable.
+
+ el punto . sobre una variable despues de 
+ una variable seguido por el nombre del 
+ metodo en este caso title ()
+ dice que se tiene que ejecutar title()
+ de la variable name
+
+ Todos los metoos van seguidos de parentesis
+ porque en ocaciones necesitan informacion 
+ adicional para funcionar. En esta ocacion el
+  metodo title() no requiere informacion 
+  adicional para ejecutarse
+"""
+print(name.upper())
+print(name.lower())
