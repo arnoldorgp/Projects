@@ -1,7 +1,7 @@
 #STRINGS
 
 """
-un srtrin es de manera sencillal una serie de caracteres.
+un srtring es de manera sencillal una serie de caracteres.
 En Python,t todo lo que se encuentre entre comillas simples ''
 o dentro de comillas dobles "" es considerado un string
 
@@ -47,3 +47,7 @@ print(name)
 """
 print(name.upper())
 print(name.lower())
+
+name = "Arnoldo 'tano'"
+print(name
+)
