@@ -49,5 +49,4 @@ print(name.upper())
 print(name.lower())
 
 name = "Arnoldo 'tano'"
-print(name
-)
+print(name)
