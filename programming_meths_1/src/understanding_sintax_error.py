@@ -7,4 +7,11 @@ print("Efecto del rstrip")
 print(programming_language.rstrip())
 print("Efecto del strip")
 print(programming_language.strip())
+print("Variable")
 print(programming_language)
+
+# Error de sintaxis
+message = 'Una fortaleza de python es su comunidad'
+print(message)
+message = 'Una 'fortaleza' de python es su comunidad'
+print(message)
