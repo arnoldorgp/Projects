@@ -19,3 +19,36 @@ for magician in magicians:
 print('Gracias a todos, ese fue un gran espectaculo')
 
 print(" ".join(magicians))
+
+#Identación
+
+"""
+Python utiliza la identación para determinar
+cuando una lineade codigo esta conectada a la
+linea de código anterior.
+
+Basicamente, se utilizan 4 espacios en blanco para
+obligarnos a escribir codigo ordenado y estructurado.
+"""
+
+#No olvidemos identar
+
+magicians = ["alice", 'david', 'caroline']
+"""
+for magician in magicians:
+print(magician) #identation error
+"""
+
+for magician in magicians:
+    print(magician)
+print(f"no puedo vesperar a ver el siguente truco, {magician}")#error de logica
+
+
+#identacion inecesaria
+message = "hellow python world"
+#    print(message) # error de identación
+
+#No olvidar los dos puntos
+for magician in magicians
+    print(magician) #error de sintaxix(no puse los 2 puntos)
+
