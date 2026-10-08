@@ -28,3 +28,16 @@ for student in students[3:5]:
     print(f'El estudiante {student}, va a pasar la materia')
 
 print(students)
+
+# ¿como copiar una lista?
+
+my_food = ['tacos', 'pizza'. 'flautas']
+my_friend_food = my_food # ASI NO SE COPIA UNA LISTA
+
+# materas correctas (hay 3)
+# metodo 1
+my_friend_food_2 = my_food[:]
+# metodo 2
+my_friend_food_3 = my_food.copy()
+# metodo 3
+my_friend_food_4 = list(my_food)
