@@ -15,6 +15,7 @@ print('caguama = "esto es una variable tipo string"\nchela = 5+6 \nguama = "tamb
 caguama = "esto es una variable tipo string"
 chela = 5+6 
 guama = "tambien string"
+print()
 #concatenación
 print("---CONCATENACIÓN---")
 print(r'print(caguama+"\n"+guama+"\n"+str(chela))')
@@ -22,12 +23,14 @@ print(caguama+"\n"+guama+"\n"+str(chela))
 """str()convierte cualquier variable
 o resultado de variable en un string"""
 #f-string
+print()
 print("---F-STRINGS---")
 coca = "perro"
 pepsi = "gato"
 refresco = f"{coca+" y "+pepsi} quieren comida"
 print(refresco)
 #metodos
+print()
 print("---MÉTODOS---")
 chilaquiles = "tacos y pozole"
 barbacoa = "los domingos"
@@ -37,6 +40,7 @@ mole = "adrian"
 tostadas = comida + " 8==D " + mole
 print(comida.title()+"\n\t"+tostadas.upper())
 #join ()
+print()
 print("---TAREA DEL METODO JOIN---")
 rompecabezas = ["que pedo", "ma nigga", mole,",", "que opinas de que", comida.upper()]
 gol = " ".join(rompecabezas)
