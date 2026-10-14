@@ -27,3 +27,16 @@ print(age == 18)# false
 answer = 17
 if answer !=42:
     print('incorrecto')
+
+print('condiciones utilizando <')
+age = 18
+print(age < 18) #Falso
+
+print('condiciones utilizando <=')
+print(age <= 18) # True
+
+print('condiciones utilizando >')
+print(age > 18) #False
+
+print('condiciones utilizando >=')
+print(age >= 18) # True
